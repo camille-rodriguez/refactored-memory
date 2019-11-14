@@ -9,5 +9,7 @@ data:
     - name: Layer2-space
       protocol: layer2
       addresses:
-      - 172.27.21.160-172.27.21.200
+      #this range needs to be adapted to the environment! 
+      #Choose something in the same subnet as the other k8s services (cluster-info)
+      - 172.27.21.160-172.27.21.200 
       avoid-buggy-ips: true
