@@ -9,5 +9,5 @@ data:
     - name: Layer2-space
       protocol: layer2
       addresses:
-      - 172.27.22.150-172.27.22.200
+      - 172.27.21.160-172.27.21.200
       avoid-buggy-ips: true
